@@ -4,3 +4,4 @@ dependencies:
 - kim-api
 - openkimmodels
 - kliff
+- matplotlib

@@ -1,0 +1,13 @@
+This directory contains a training set for diamond silicon. It is only for the
+purpose to demonstrate how to use KLIFF, not suitable for training any real
+potentail.
+
+- varying_alat
+    It contains compressed and stretched diamond silicon with strains from -5%
+    to 5%. Random perturbations are applied to the coordinates of atoms at each
+    strain level.
+
+- NVT_runs:
+    Configurations collected from molecular dynamics simulations with the NVT
+    ensemble at temperatures 300, 600, and 900K. One out of a hundred steps are
+    recorded and put in the training set for each temperature.
